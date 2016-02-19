@@ -34,6 +34,7 @@ public class OrdenamientoNumeros extends JFrame{
     private JButton[] compBotones = new JButton[textoEtiquetas.length];
     private Dimension dimBoton = new Dimension(190,25);
     private JTextField[] ordenMenor = new JTextField[textoEtiquetas.length];
+    int c=0;
             
     public OrdenamientoNumeros(){
         super("Ordena 15 Numeros - angel.shaoran");
@@ -170,6 +171,8 @@ public class OrdenamientoNumeros extends JFrame{
         for(int i=0; i<textoEtiquetas.length;i++){
             compCampos[i].setText("");
         }
+        c=c+1;
+        System.out.println("Tablero limpio: Veces = " +c);
     }    
     // manejador de ventos de los botones angelshaoran.wordpress.com
     private class ManejadorBotones implements ActionListener{
