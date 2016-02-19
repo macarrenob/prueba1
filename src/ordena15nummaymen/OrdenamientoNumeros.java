@@ -169,7 +169,7 @@ public class OrdenamientoNumeros extends JFrame{
     private void limpiar(){
         //CAMBIÉ EL STRING QUE APARECE EN LAS CASILLAS EN BLANCO POR UNA EQUIS Y ZETA
         for(int i=0; i<textoEtiquetas.length;i++){
-            compCampos[i].setText("XZ");
+            compCampos[i].setText("XYZ");
         }
         //OTRA LINEA EXTRA
         //UNA LINEA MAS.....
