@@ -5,9 +5,7 @@
  */
 package ordena15nummaymen;
 import javax.swing.*;
-/**
- * @author angel.shaoran
- */
+
 public class Main extends JFrame{    
     /**
      * @param args the command line arguments
