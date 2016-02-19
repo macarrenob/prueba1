@@ -167,9 +167,11 @@ public class OrdenamientoNumeros extends JFrame{
     }
     //metodo para limpiar los jtextfields angelshaoran.wordpress.com
     private void limpiar(){
+        //CAMBIÉ EL STRING QUE APARECE EN LAS CASILLAS EN BLANCO POR UNA EQUIS
         for(int i=0; i<textoEtiquetas.length;i++){
-            compCampos[i].setText("");
+            compCampos[i].setText("X");
         }
+        //OTRA LINEA EXTRA
     }    
     // manejador de ventos de los botones angelshaoran.wordpress.com
     private class ManejadorBotones implements ActionListener{
